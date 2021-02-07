@@ -1,0 +1,4 @@
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Browser: note is sent as JSON-data to server in POST request
+Server-->Browser:Status Code: 201
+note over Browser: note is added to page without refresh
